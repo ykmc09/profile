@@ -4,11 +4,17 @@
 
 body {
     margin: 0 auto;
+    max-width: 1024px;
 }
 
 header, main, footer {
     width: 100%;
 }
+
+a {
+    color: #e40277;
+}
+
 
 /* header */
 header {
@@ -73,13 +79,8 @@ main li:before {
 .sns li:before {
     content: none;
 }
-.sns li {
-    display: inline;
-    margin-left: 1em;
-}
 .sns a {
     text-decoration: underline;
-    color: black;
 }
 
 article > h1 {
@@ -96,7 +97,8 @@ li > ul > li {
     font-size: 0.8em;
 }
 
-
-
+.contact, .service p {
+    text-align: center;
+}
 
 /* footer */
