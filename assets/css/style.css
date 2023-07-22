@@ -77,6 +77,11 @@ main li:before {
     color: #e40277;
 }
 
+.sns li {
+    display: inline;
+    font-size: 1.75em;
+    padding-right: 0.5em;
+}
 .sns li:before {
     content: none;
 }
