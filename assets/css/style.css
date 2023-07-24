@@ -15,6 +15,9 @@ a {
     color: #e40277;
 }
 
+p {
+    text-align: center;
+}
 
 /* header */
 header {
@@ -99,8 +102,9 @@ section > h1 {
     background: linear-gradient(transparent 70%, #2eb2ff 70%, #2eb2ff 100%);
 }
 
-li > ul > li {
+.service  li {
     font-size: 0.8em;
+    text-align: center;
 }
 
 ul.cards {
@@ -185,10 +189,6 @@ ul.cards li:before {
     font-weight: normal;
     font-size: 0.8rem;
     color: #666;
-}
-
-.contact, .service p {
-    text-align: center;
 }
 
 .contact {
